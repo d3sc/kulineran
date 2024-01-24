@@ -1,0 +1,580 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: saturate(180%) blur(30px);
+  color: white;
+  z-index: 100;
+}
+
+.logo h3 {
+  text-transform: uppercase;
+  font-family: "Inter";
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: #141416;
+}
+
+.gambar {
+  position: absolute;
+  bottom: -10%;
+  right: -10%;
+  width: 50%;
+  height: 80%;
+  background-image: url("./assets/gambar1.jpg");
+  background-position: -250px 0px;
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 10;
+
+  border: 15px solid #ffd10a;
+}
+
+.jumbo-text {
+  height: 80vh;
+  width: 50%;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+  padding-inline: 30px;
+}
+
+.highlight-text {
+  font-family: "Inter";
+  color: #ffd10a;
+}
+
+.jumbo-text h1 {
+  font-size: 2.5em;
+  text-align: start;
+}
+.jumbo-text h4 {
+  margin-top: 10px;
+  font-size: 1.1em;
+  opacity: 0.9;
+}
+
+.subtext {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.btn-lihat {
+  position: absolute;
+  bottom: 125px;
+  left: 30px;
+  width: fit-content;
+  padding: 15px 25px;
+
+  background-color: #ffd10a;
+  color: #141416;
+  border: 3px solid rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.8);
+  transition: all ease 0.3s;
+
+  cursor: pointer;
+}
+
+.btn-lihat:hover {
+  bottom: 120px;
+  left: 35px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.pernak-pernik {
+  position: absolute;
+  top: 19%;
+  right: 20px;
+  width: 150px;
+  height: 50px;
+}
+.pernak-pernik2 {
+  position: absolute;
+  bottom: 19%;
+  right: 50%;
+  width: 150px;
+  height: 50px;
+}
+.pernak-pernik3 {
+  position: absolute;
+  bottom: 19%;
+  right: 65%;
+  width: 150px;
+  height: 50px;
+}
+
+.icons {
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+
+  display: flex;
+  gap: 30px;
+}
+
+.icons svg {
+  background-color: #ffd10a;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* main */
+
+main {
+  position: relative;
+  background-color: white;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  /* background-color: red; */
+  margin-inline: auto;
+
+  padding-top: 300px;
+  padding-bottom: 100px;
+  width: 80%;
+}
+
+.ombak {
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  transform: rotateZ(180deg);
+}
+
+.food-gallery {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.food-item {
+  border-radius: 10px;
+  width: 400px;
+  height: auto;
+  background-color: #141416;
+}
+
+.food-item img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.food-info {
+  padding-inline: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.food-info h2,
+.food-info h4 {
+  font-family: "Inter";
+}
+
+.food-info p {
+  font-family: "Nunito";
+  margin-top: 20px;
+}
+
+.show-more {
+  padding: 10px 30px;
+  border: 0;
+  background-color: #ffd10a;
+  color: #141416;
+  font-size: 1.2em;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+/* contact */
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  padding-top: 50px;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px "Oswald", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.form-control:focus,
+textarea:focus {
+  outline: none;
+}
+
+.form-control,
+textarea {
+  width: 400px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px "Lato", sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -28px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px "Lato", sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px "Oswald", sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .direct-contact-container,
+  .form-horizontal {
+    margin: 0 auto;
+  }
+
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .direct-contact-container,
+  .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }
+  .form-control,
+  textarea {
+    margin: 0 auto;
+  }
+
+  .name,
+  .email,
+  textarea {
+    width: 280px;
+  }
+
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+  }
+  .social-media-list {
+    left: 0;
+  }
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
+}
