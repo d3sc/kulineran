@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "nama": "Kuah Pilek U",
+      "city": "khas Nanggroe Aceh Darussalam",
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-eYSTZ6nD5nY%2FUWCveXk1XeI%2FAAAAAAAAA64%2FJKpGBBdXPVc%2Fs1600%2Fkuah%2Bpliek%2Bu.jpg&f=1&nofb=1&ipt=0f5395d0155b2388f0f21f26f21c35afd61de22b5a00aa3f4ccfedd1663eff6d&ipo=images",
+      "desc": "Kuah pliek u adalah makanan khas Nanggroe Aceh Darussalam, terutama di daerah pesisir timur.Makanan yang mirip seperti gulai ini berbahan dasar pliek u atau sisa kelapa yang minyaknya sudah diperas. Ampas kelapa ini dikeringkan dan digunakan sebagai bumbu kuah pliek u. Kuah ini berisi berbagai macam sayuran."
+    },
+    {
+      "id": "2",
+      "nama": "Mi Gomak",
+      "city": "Sumatra Utara",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fasset-a.grid.id%2Fcrop%2F0x0%3A0x0%2F700x465%2Fphoto%2Fsasefoto%2Foriginal%2F35990_mi-gomak.JPG&f=1&nofb=1&ipt=95f766544492c5239cef90835b40a1d6361b0e860d7058986c34934fed0818ee&ipo=images",
+      "desc": "Mi gomak adalah makanan khas Sumatra Utara, terutama bagi suku Batak Toba. Uniknya, mi gomak ini memiliki tampilan seperti makanan Italia spageti karena ukuran mi yang besar. Bahan utamanya adalah mi dengan kuah rempah terutama merica, biasanya disajikan dengan telur, tempe goreng, ubi goreng atau pisang goreng. Gomak dalam bahasa setempat berarti diambil dengan tangan, karena makanan ini sejak dahulu langsung diracik di piring menggunakan tangan. Namun sekarang sudah lebih higienis karena menggunakan sarung tangan."
+    },
+    {
+      "id": "3",
+      "nama": "Pempek",
+      "city": "Sumatra Utara",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Findonesiaexpat.id%2Fwp-content%2Fuploads%2F2023%2F04%2Fpempek-palembang-960x686.jpg&f=1&nofb=1&ipt=679d0c4a019c063151de7c974c3659bd4a54bf2c08b1ec2968b1e5e56162dba1&ipo=images",
+      "desc": "Pempek adalah makanan khas Sumatra Selatan yang terkenal di mana-mana dengan Pempek Pelembangnya. Pempek dibuat dari bahan sagu dan ikan, disajikan dengan kuah gula merah, asem, bawang putih dan cabe rawit. Beberapa jenis pempek diisi dengan telur. Beberapa jenis pempek, yaitu lenjer, kapal selam, adaan, dan lenggang"
+    },
+    {
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.resepedia.id%2Fassets%2Fimages%2F2020%2F07%2F1671584516883047-tahu-bakso.jpg&f=1&nofb=1&ipt=8ea78e292aabea38228aee6f5f57b136df3c7a468c95dd42e62621f29090b775&ipo=images",
+      "id": "5",
+      "nama": "bakso goreng",
+      "city": "bandung",
+      "desc": "lorem suka makan bakso pake tahu enak banget"
+    }
+  ]
+}

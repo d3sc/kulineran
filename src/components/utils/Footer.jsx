@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col">
+    <footer className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="footer-col">
             <h4>Links</h4>
             <ul>
               <li>
@@ -22,7 +22,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div className="footer-col">
             <h4>get help</h4>
             <ul>
               <li>
@@ -42,7 +42,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div className="footer-col">
             <h4>online shop</h4>
             <ul>
               <li>
@@ -59,17 +59,17 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div className="footer-col">
             <h4>follow us</h4>
-            <div class="social-links">
+            <div className="social-links">
               <a href="#">
-                <i class="fab fa-facebook-f"></i>
+                <i className="fab fa-facebook-f"></i>
               </a>
               <a href="#">
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
               <a href="#">
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
             </div>
           </div>

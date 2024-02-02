@@ -59,5 +59,4 @@ export const dataMakanan = [
         image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gotravelly.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F02%2Fbakmi-lokut-1024x683.jpg&f=1&nofb=1&ipt=d4eed5b3956e2706283a057511fd04331bf0ad8eaf2209840a30ccac03ffb134&ipo=images",
         desc: "Mi bangka adalah makanan khas dari Bangka Belitung yang biasanya mudah ditemukan di berbagai daerah di Indonesia. Mi bangka hampir sama dengan mi ayam di Jawa, yakni dilengkapi potongan ayam kecap. Namun ada juga mi bangka yang menggunakan daging babi, jadi pastikan dulu ke penjualnya sebelum kamu beli ya."
     },
-
 ]

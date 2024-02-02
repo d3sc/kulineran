@@ -1,7 +1,9 @@
 import "./App.css";
-import Contact from "./components/Contact";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Contact from "./components/utils/Contact";
+import CreateItem from "./components/utils/CreateItem";
+import Header from "./components/utils/Header";
+import ItemDetail from "./components/utils/ItemDetail";
+import Main from "./components/utils/Main";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
             }
           />
           <Route path="/contact" Component={Contact} />
+          <Route path="/item/:id" Component={ItemDetail} />
+          <Route path="/create" Component={CreateItem} />
         </Routes>
       </Router>
     </>

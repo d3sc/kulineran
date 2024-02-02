@@ -14,9 +14,6 @@ const Navbar = () => {
           <a href="/#makanan">Makanan</a>
         </li>
         <li>
-          <a href="/#tempatMakan">Tempat Makan</a>
-        </li>
-        <li>
           <a href="/contact">Contact</a>
         </li>
       </ul>

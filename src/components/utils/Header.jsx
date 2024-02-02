@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import pernak from "../assets/pernak.svg";
+import pernak from "../../assets/pernak.svg";
 
 const Header = () => {
   return (
