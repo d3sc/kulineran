@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 const Main = () => {
   const navigate = useNavigate();
-  const { setRender, render, allData, setAllData } = useContext(DataContext);
+  const { allData, setAllData } = useContext(DataContext);
   const [countMakanan, setCountMakanan] = useState(2);
 
   const deleteHandling = async (id) => {

@@ -5,11 +5,18 @@ import { Link } from "react-router-dom";
 import apiHandler from "../api/Apihandler";
 import { useContext } from "react";
 import { DataContext } from "../../context/DataContext";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function ItemCard({ item, deleteHandling }) {
   const [isEdit, setIsEdit] = useState(false);
   const { allData, setAllData } = useContext(DataContext);
   const formRef = useRef();
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   const submit = (e) => {
     e.preventDefault();
@@ -31,7 +38,7 @@ export default function ItemCard({ item, deleteHandling }) {
     setAllData(allData.map((p) => (p.id == currentData.id ? currentData : p)));
   };
   return (
-    <div>
+    <div data-aos="fade-up">
       {!isEdit ? (
         <div className="food-item">
           <img src={item.image} alt="img" width={400} />
@@ -40,7 +47,7 @@ export default function ItemCard({ item, deleteHandling }) {
               <h2 className="food-title">{item.nama}</h2>
             </Link>
             <h5>{item.city}</h5>
-            <p>{item.desc.substring(0, 100) + "..."}</p>
+            <p>{item.desc.substring(0, 50) + "..."}</p>
             <div className="input-group">
               <button className="btn-warning" onClick={() => setIsEdit(!isEdit)}>
                 edit
