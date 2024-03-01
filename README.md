@@ -1,8 +1,5 @@
-# React + Vite
+# Praktikum ReactJS Ikbar Rabbani Purwanto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+pada ulangan praktikum ini saya telah membuat sebuah website yang bertemakan kuliner, dan saya membuat nya dengan react js vite yang teritegrasikan oleh api yang saya buat sendiri yang dimana datanya saya ambil dari google / internet.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+dan saya telah membuat design yang simple dan semua metode dari CRUD telah berjalan dengan baik, dan sudah saya test.
