@@ -35,7 +35,7 @@ const Contact = () => {
           <ul class="contact-list">
             <li class="list-item">
               <i class="fa fa-map-marker fa-2x">
-                <span class="contact-text place">City, State</span>
+                <span class="contact-text place">Jakarta, Tangerang Selatan</span>
               </i>
             </li>
 
