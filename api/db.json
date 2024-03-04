@@ -50,25 +50,18 @@
       "desc": "Otak-otak adalah makanan khas Kepulauan Riau. Bahan dasarnya mirip dengan pempek, yaitu tepung sagu dan ikan. Namun otak-otak dimasak dengan cara dimasukkan ke dalam daun pisang lalu dipanggang. Penyajiannya yaitu dengan dicocol bumbu kacang pedas."
     },
     {
-      "id": "8",
-      "nama": "Nasi Gemuk",
-      "city": "Jambi",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fasset.kompas.com%2Fcrops%2FYJXX1aIeNs-2WHjw4VJDWJBywT0%3D%2F0x0%3A1000x667%2F750x500%2Fdata%2Fphoto%2F2020%2F07%2F05%2F5f01435b5c965.jpg&f=1&nofb=1&ipt=c48dc82eb47bdf88d5ad053d7e60a83b4f0b427706721612c13efc32ec070cc2&ipo=images",
-      "desc": "Nasi gemuk adalah makanan khas dari Jambi. Biasanya makanan ini disantap saat sarapan. Gemuk dalam bahasa setempat berarti 'beragam'. Nasi gemuk ini memiliki beragam campuran, yaitu nasi berbumbu santan yang disajikan dengan telur rebus, sambal cenge, ikan teri, dan kemplang abang."
-    },
-    {
-      "id": "9",
-      "nama": "Gulai Taboh",
-      "city": "Lampung",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-5KMNL0jnloI%2FVxJnQeI_LSI%2FAAAAAAAAJN0%2FqyTJGZjS6I8u5iYappyMmIiVGYH9OqkgACLcB%2Fs1600%2FResep%252BGulai%252BTaboh%252BDalom%252BSayur%252BKhas%252BLampung%252BSederhana%252BSpesial%252BAsli%252BEnak.jpg&f=1&nofb=1&ipt=8a8b68ccbb55e510ca0ecf1894388b368a633954c77547edf2a351693aefb01c&ipo=images",
+      "id": "9",
+      "nama": "Gulai Tabohihi",
+      "city": "Lampung",
       "desc": "Gulai taboh adalah makanan khas Lampung yang sudah diakui UNESCO. Masakan gulai ini khas dengan bumbu kuning bersantan. Isi dari gulai taboh antara lain ikan, kacang panjang, kacang merah, rebung, kol, dan kentang."
-    },
+    }
+  ],
+  "user": [
     {
-      "id": "10",
-      "nama": "Mi Bangka",
-      "city": "bangka Belitung",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gotravelly.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F02%2Fbakmi-lokut-1024x683.jpg&f=1&nofb=1&ipt=d4eed5b3956e2706283a057511fd04331bf0ad8eaf2209840a30ccac03ffb134&ipo=images",
-      "desc": "Mi bangka adalah makanan khas dari Bangka Belitung yang biasanya mudah ditemukan di berbagai daerah di Indonesia. Mi bangka hampir sama dengan mi ayam di Jawa, yakni dilengkapi potongan ayam kecap. Namun ada juga mi bangka yang menggunakan daging babi, jadi pastikan dulu ke penjualnya sebelum kamu beli ya."
+      "id": "makanbaksobiarenak",
+      "username": "admin",
+      "password": "testing123"
     }
   ]
 }

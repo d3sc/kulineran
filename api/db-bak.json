@@ -46,7 +46,7 @@
       "id": "7",
       "nama": "Otak-otak",
       "city": "Riau",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkbu-cdn.com%2Fdk%2Fwp-content%2Fuploads%2Fotak-otak-goreng-ala-kobe.jpg&f=1&nofb=1&ipt=afdb9a194a0842fbe8d0357012ef165b28583b517c2cacd79b0fe31f830d8a89&ipo=images",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rumahmesin.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fotak-otak.jpg&f=1&nofb=1&ipt=1efe0689abe06f14957be6f0ec9d505345623b87cf3d71d11ed2a04cdc34e359&ipo=images",
       "desc": "Otak-otak adalah makanan khas Kepulauan Riau. Bahan dasarnya mirip dengan pempek, yaitu tepung sagu dan ikan. Namun otak-otak dimasak dengan cara dimasukkan ke dalam daun pisang lalu dipanggang. Penyajiannya yaitu dengan dicocol bumbu kacang pedas."
     },
     {
@@ -69,6 +69,13 @@
       "city": "bangka Belitung",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gotravelly.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F02%2Fbakmi-lokut-1024x683.jpg&f=1&nofb=1&ipt=d4eed5b3956e2706283a057511fd04331bf0ad8eaf2209840a30ccac03ffb134&ipo=images",
       "desc": "Mi bangka adalah makanan khas dari Bangka Belitung yang biasanya mudah ditemukan di berbagai daerah di Indonesia. Mi bangka hampir sama dengan mi ayam di Jawa, yakni dilengkapi potongan ayam kecap. Namun ada juga mi bangka yang menggunakan daging babi, jadi pastikan dulu ke penjualnya sebelum kamu beli ya."
+    }
+  ],
+  "user": [
+    {
+      "id": "makanbaksobiarenak",
+      "username": "admin",
+      "password": "testing123"
     }
   ]
 }

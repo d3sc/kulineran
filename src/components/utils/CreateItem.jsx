@@ -3,16 +3,23 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import apiHandler from "../api/Apihandler";
+import apiHandler from "../api/Apihandler.js";
 import { DataContext } from "../../context/DataContext";
+import { LoginContext } from "../../context/LoginContext.jsx";
+import { useEffect } from "react";
 
 export default function CreateItem() {
   const { allData } = useContext(DataContext);
   const formRef = useRef();
   const navigate = useNavigate();
+  const { username } = useContext(LoginContext);
+
+  if (!username) return "Loading..";
 
   const submit = (e) => {
     e.preventDefault();
+
+    if (!username) return alert("Login terlebih dahulu!");
     const { [0]: name, [1]: city, [2]: description, [3]: image } = formRef.current;
 
     if (name.value.length < 4) return;

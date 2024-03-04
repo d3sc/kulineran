@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import apiHandler from "../api/Apihandler";
+import apiHandler from "../api/Apihandler.js";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 

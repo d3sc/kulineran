@@ -1,6 +1,9 @@
-import React from "react";
+import { useContext } from "react";
+import { LoginContext } from "../../context/LoginContext";
 
 const Navbar = () => {
+  // const { username } = useContext(LoginContext);
+  const username = localStorage.getItem("username");
   return (
     <nav>
       <div className="logo">
@@ -16,6 +19,7 @@ const Navbar = () => {
         <li>
           <a href="/contact">Contact</a>
         </li>
+        <li>{username ? <a href="/dashboard">{username}</a> : <a href="/login">Login</a>}</li>
       </ul>
     </nav>
   );

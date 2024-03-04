@@ -1,14 +1,8 @@
-# Praktikum ReactJS Ikbar Rabbani Purwanto
+# React + Vite
 
-Pada ulangan praktikum ini saya telah membuat sebuah website yang bertemakan kuliner, dan saya membuat nya dengan react js vite yang teritegrasikan oleh api yang saya buat sendiri yang dimana datanya saya ambil dari google / internet.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-dan saya telah membuat design yang simple dan semua metode dari CRUD telah berjalan dengan baik, dan sudah saya test.
+Currently, two official plugins are available:
 
-### img 1
-![alt img1](https://github.com/d3sc/lastpraktikum/blob/main/doc/img1.png)
-
-### img 2
-![alt img2](https://github.com/d3sc/lastpraktikum/blob/main/doc/img2.png)
-
-### img 3
-![alt img2](https://github.com/d3sc/lastpraktikum/blob/main/doc/img3.png)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

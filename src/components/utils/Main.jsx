@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import Footer from "./Footer.jsx";
-import apiHandler from "../api/Apihandler.jsx";
+import apiHandler from "../api/Apihandler.js";
 import ItemCard from "./ItemCard.jsx";
 import { useContext } from "react";
 import { DataContext } from "../../context/DataContext.jsx";
@@ -11,6 +11,7 @@ const Main = () => {
   const navigate = useNavigate();
   const { allData, setAllData } = useContext(DataContext);
   const [countMakanan, setCountMakanan] = useState(2);
+  const [input, setInput] = useState("");
 
   const deleteHandling = async (id) => {
     setAllData(allData.filter((data) => data.id != id));
@@ -32,15 +33,17 @@ const Main = () => {
             tambah makanan
           </button>
         </div>
+        <input type="text" onChange={(e) => setInput(e.target.value)} />
         <div className="food-gallery">
           {allData
-            ?.sort((a, b) => b.id - a.id)
+            .filter((i) => i.nama.toLowerCase().indexOf(input) > -1)
+            .sort((a, b) => b.id - a.id)
             .slice(0, countMakanan)
             .map((item, i) => (
               <ItemCard key={i} item={item} deleteHandling={deleteHandling} />
             ))}
         </div>
-        {countMakanan < allData.length && (
+        {countMakanan < allData.filter((i) => i.nama.toLowerCase().indexOf(input) > -1).length && (
           <center>
             <button className="show-more" onClick={() => setCountMakanan((prev) => prev + 2)}>
               Show More

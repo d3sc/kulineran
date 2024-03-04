@@ -2,17 +2,21 @@ import React from "react";
 import { useRef } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import apiHandler from "../api/Apihandler";
+import apiHandler from "../api/Apihandler.js";
 import { useContext } from "react";
 import { DataContext } from "../../context/DataContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { LoginContext } from "../../context/LoginContext.jsx";
 
 export default function ItemCard({ item, deleteHandling }) {
   const [isEdit, setIsEdit] = useState(false);
   const { allData, setAllData } = useContext(DataContext);
   const formRef = useRef();
+
+  const localUsername = localStorage.getItem("username");
+  const { username } = useContext(LoginContext);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -20,6 +24,7 @@ export default function ItemCard({ item, deleteHandling }) {
 
   const submit = (e) => {
     e.preventDefault();
+    if (!username) return alert("Login terlebih dahulu!");
     const { [0]: id, [1]: name, [2]: city, [3]: description, [4]: image } = formRef.current;
 
     if (name.value.length < 4) return alert("Name required");
@@ -48,14 +53,16 @@ export default function ItemCard({ item, deleteHandling }) {
             </Link>
             <h5>{item.city}</h5>
             <p>{item.desc.substring(0, 50) + "..."}</p>
-            <div className="input-group">
-              <button className="btn-warning" onClick={() => setIsEdit(!isEdit)}>
-                edit
-              </button>
-              <button className="btn-delete" onClick={() => (confirm("are you sure?") ? deleteHandling(item.id) : null)}>
-                delete
-              </button>
-            </div>
+            {localUsername && (
+              <div className="input-group">
+                <button className="btn-warning" onClick={() => setIsEdit(!isEdit)}>
+                  edit
+                </button>
+                <button className="btn-delete" onClick={() => (confirm("are you sure?") && username ? deleteHandling(item.id) : null)}>
+                  delete
+                </button>
+              </div>
+            )}
           </div>
         </div>
       ) : (
